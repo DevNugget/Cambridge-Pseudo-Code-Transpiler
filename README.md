@@ -8,9 +8,24 @@ This was solely made as a personal challenge and to create a helpful tool for my
 ## Input and Output
 ```
 OUTPUT "Hello World!"
+PRINT "Hello World!" // Same as OUTPUT
+
+MyCode <- "99B64" // Example variable
+OUTPUT "My ID is " , MyCode // This prints: My ID is 99B64 || this is also used only if the variable we are concatinating is a string.
+
+MyInt <- 58
+OUTPUT "My integer is " ,, MyInt // This prints: My integer is 58 || We use double commas to convert any non string value into a string, this is because it was difficult for me to type check these when writing the transpiler.
+
 INPUT Text
 ```
-  
+
+## Variables
+```
+MyNum <- 0
+MyReal <- 0.1
+MyText <- ""
+```
+
 ## If Statements
 ```
 IF 20 > 10 THEN
