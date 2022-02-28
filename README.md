@@ -6,7 +6,8 @@ A transpiler to be able to run Cambridge's set pseudo-code language.
 This was solely made as a personal challenge and to create a helpful tool for my classmates that find it difficult to work with Pseudo-code, I came to the conclusion that it might be better if the code written can actually be executed to get a better understanding whether the code they write will return the expected outcome.  
 
 ## Author information
-
+Name: Dominic
+Internet Username: DevNugget
 
 ## Input and Output
 ```
