@@ -6,8 +6,28 @@ A transpiler to be able to run Cambridge's set pseudo-code language.
 This was solely made as a personal challenge and to create a helpful tool for my classmates that find it difficult to work with Pseudo-code, I came to the conclusion that it might be better if the code written can actually be executed to get a better understanding whether the code they write will return the expected outcome.  
 
 ## Author information
-Name: Dominic
-Internet Username: DevNugget
+Name: Dominic  
+Internet Username: DevNugget   
+
+## Using
+Download this repository. Open a terminal inside the download path.   
+Enter the following commands.  
+
+Linux Based Operating Systems:
+```
+./main {instructions file} {output file: should be a .py file}
+
+// This would compile the app.cmps file included in the repository.
+./main app.cmps output.py
+```
+
+Windows Operating Systems (Requires python3, I was only able to compile to Linux as I use Linux):
+```
+python3 main.py {instructions file} {output file: should be a .py file}
+
+// This would compile the app.cmps file included in the repository.
+python3 main.py app.cmps output.py
+```
 
 ## Input and Output
 ```
