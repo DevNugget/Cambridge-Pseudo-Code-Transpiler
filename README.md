@@ -11,10 +11,15 @@ OUTPUT "Hello World!"
 PRINT "Hello World!" // Same as OUTPUT
 
 MyCode <- "99B64" // Example variable
-OUTPUT "My ID is " , MyCode // This prints: My ID is 99B64 || this is also used only if the variable we are concatinating is a string.
+// This prints: My ID is 99B64 || this is also used only if the variable we are concatinating is a string.
+OUTPUT "My ID is " , MyCode 
 
 MyInt <- 58
-OUTPUT "My integer is " ,, MyInt // This prints: My integer is 58 || We use double commas to convert any non string value into a string, this is because it was difficult for me to type check these when writing the transpiler.
+
+// This prints: My integer is 58 || We use double commas to convert any non string value into a string, 
+this is because it was difficult for me to type check these when writing the transpiler. This is not to
+be taken over to an exam, we are foregoing accuracy to make it runnable.
+OUTPUT "My integer is " ,, MyInt 
 
 INPUT Text
 ```
