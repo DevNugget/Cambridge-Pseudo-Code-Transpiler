@@ -42,7 +42,7 @@ MyInt <- 58
 
 // This prints: My integer is 58 || We use double commas to convert any non string value into a string, 
 this is because it was difficult for me to type check these when writing the transpiler. This is not to
-be taken over to an exam, we are foregoing accuracy to make it runnable.
+be taken over to an exam, we are slightly foregoing accuracy to make it runnable.
 OUTPUT "My integer is " ,, MyInt 
 
 INPUT Text
