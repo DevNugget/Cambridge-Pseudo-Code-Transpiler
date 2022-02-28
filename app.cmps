@@ -1,0 +1,32 @@
+OUTPUT "Input Name:"
+INPUT Name
+OUTPUT "Hello " , Name
+
+Counter <- 0
+Counter2 <- 0
+
+Num <- 0
+Num <- Num + 1
+OUTPUT Num
+
+IF Num = 1 THEN
+	OUTPUT "Number is 0"
+ENDIF
+
+FOR i <- 1 TO 5
+	OUTPUT i
+NEXT i
+
+WHILE Counter < 10 DO
+	Counter <- Counter + 1
+	OUTPUT Counter
+ENDWHILE
+
+REPEAT
+	Counter2 <- Counter2 + 1
+	OUTPUT "Counter 2: " ,, Counter2
+UNTIL Counter2 > 20
+
+
+
+
