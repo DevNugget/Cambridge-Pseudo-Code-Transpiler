@@ -17,7 +17,7 @@ f.close()
 
 splitstack = []
 
-print(source_content)
+#print(source_content)
 
 results = [[]]
 quote = None
@@ -32,7 +32,7 @@ for c in source_content:
 
 splitstack = [''.join(x) for x in results]
 
-print(splitstack)
+#print(splitstack)
 counti = 0
 
 stack = []
@@ -55,7 +55,7 @@ for i in range(len(splitstack)):
                 else:
                         ripple += plit[i]
 
-print(riddle)
+#print(riddle)
 nimble = []
 
 for i in riddle:
@@ -78,7 +78,7 @@ for i in riddle:
 for sublist in nimble:
         for value in sublist:
                 tabstack.append(value)
-print(tabstack)
+#print(tabstack)
                         
 for i in range(len(tabstack)):
 	if tabstack[i].startswith("\t"):
@@ -91,7 +91,7 @@ for i in range(len(tabstack)):
 counter = 0
 counter2 = 0
 output = ""
-print(finalstack)
+#print(finalstack)
 stack = finalstack
 ifs = 0
 endifs = 0
@@ -103,7 +103,7 @@ ignores = [
         "<>"
 ]
 
-print(stack)
+#print(stack)
 
 cont = 0
 
@@ -157,6 +157,8 @@ for i in stack:
                                 output += " !="
                         else:
                                 output += " " + j
+        elif i == "ELSE":
+                output += "else:\n"
 
         elif i == "ENDIF":
                 endifs += 1
